@@ -75,11 +75,11 @@ document.querySelector("div.bottom-content > div.text-content:nth-child(3) > p")
 
 document.querySelector("section.contact > h4")
   .textContent = siteContent["contact"]["contact-h4"];
-document.querySelector("section.contact > p:nth-child(2)")
+document.querySelector("section.contact > p:nth-of-type(1)")
   .textContent = siteContent["contact"]["address"];
-document.querySelector("section.contact > p:nth-child(3)")
+document.querySelector("section.contact > p:nth-of-type(2)")
   .textContent = siteContent["contact"]["phone"];
-document.querySelector("section.contact > p:nth-child(4)")
+document.querySelector("section.contact > p:nth-of-type(3)")
   .textContent = siteContent["contact"]["email"];
 
 //document.querySelectorAll("section.contact > p")[0].textContent = siteContent["contact"]["address"]
